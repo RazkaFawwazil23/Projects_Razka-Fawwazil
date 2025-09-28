@@ -1,0 +1,100 @@
+/*===========================================================
+
+	 Template Name: Oxyy - Login and Register Form Html Templates
+	 Author: Harnish Design
+	 Template URL: http://demo.harnishdesign.net/html/oxyy
+	 Author URL: https://themeforest.net/user/harnishdesign
+	 File Description : Main css file of the template
+	
+=================================================
+	Table of Contents
+=================================================
+
+	1. Basic
+	2. Helpers Classes
+	3. Layouts
+	4  Elements
+		4.1 Hero Background
+		4.2 Nav
+		4.3 Tabs
+		4.4 Video Play button
+	5 Social Icons
+	6 Extra
+		6.1 Form
+		6.2 Form Dark
+		6.3 Form Border
+		6.4 Form Border Light
+		6.5 Vertical Multilple input group
+		6.6 Other Bootstrap Specific
+
+=======================================================*/
+/* =================================== */
+/*  1. Basic Style 
+/* =================================== */
+body, html {
+		height: 100%;
+	}
+  
+	body {
+		background: #f1f3f6;
+		color: #4c4d4d;
+		font-family: "Poppins", sans-serif;
+	}
+
+input{
+	border-bottom: solid 2px #00000057 !important;
+}
+
+	/*-------- Preloader --------*/
+  
+	@keyframes lds-ellipsis1 {
+		0% {
+			transform: scale(0);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+	@keyframes lds-ellipsis3 {
+		0% {
+			transform: scale(1);
+		}
+		100% {
+			transform: scale(0);
+		}
+	}
+	@keyframes lds-ellipsis2 {
+		0% {
+			transform: translate(0, 0);
+		}
+		100% {
+			transform: translate(24px, 0);
+		}
+	}
+	form {
+		padding: 0;
+		margin: 0;
+		display: inline;
+	}
+  
+	img {
+		vertical-align: inherit;
+	}
+  
+	a, a:focus {
+		color: #007bff;
+		-webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+	}
+  
+	a:hover, a:active {
+		color: #006adb;
+		text-decoration: none;
+		-webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+	}
+  
+	a:focus, a:active,
+	.btn:active:focus,
+	.btn:focus,
+	button:focus,
